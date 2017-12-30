@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+* {
+	box-sizing: border-box;
+	 /* outline: 1px solid red; */ 
+}
+
+body {
+	font-family: 'Lato', sans-serif;
+}
+
+div {
+	text-align: center;
+	margin: 20px;
+}
+
+button {
+	background-color: green;
+	color: #FFF;
+	width: 35px;
+	height: 35px;
+	border: none;
+	border-radius: 50%;
+}
+button:hover {
+	background-color: darkblue;
+}
+span {
+	margin: 20px;
+	padding:20px;
+	display: inline-block;
+	background-color: darkblue;
+	color: #FFF;
+	border-radius: 5px;
+}
